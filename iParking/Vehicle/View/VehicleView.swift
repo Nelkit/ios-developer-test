@@ -7,6 +7,10 @@
 
 import UIKit
 
+protocol VehicleViewModelDelegate {
+    func reloadItems()
+}
+
 class VehicleView: BaseController {
     @IBOutlet weak var viewBottomConstraint: NSLayoutConstraint!
     @IBOutlet weak var licensePlateTextField: UITextField!
@@ -59,6 +63,10 @@ extension VehicleView: UITableViewDelegate, UITableViewDataSource{
         cell.textLabel?.text = "Nro. de Placa: \(vehicleViewModel.licensePlate)"
         return cell
     }
-    
-    
+}
+
+extension VehicleView: VehicleViewModelDelegate{
+    func reloadItems() {
+        mainTableView.reloadData()
+    }
 }

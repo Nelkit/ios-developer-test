@@ -24,20 +24,19 @@ class VehicleViewModel {
         
         let vehicleResults = database.read(Vehicle.self)
         
-        notificationToken = vehicleResults.observe({ [weak self] (changes: RealmCollectionChange) in
-            switch changes {
-            case .initial:
-                break
-            case .update(_, let deletions, let insertions, let modifications):
-                print(insertions)
-                break
-            case .error(let error):
-                break
-            }
-        })
+//        notificationToken = vehicleResults.observe({ [weak self] (changes: RealmCollectionChange) in
+//            switch changes {
+//            case .initial:
+//                break
+//            case .update(_, let deletions, let insertions, let modifications):
+//                print(insertions)
+//                break
+//            case .error(let error):
+//                break
+//            }
+//        })
         
         for vehicle in vehicleResults {
-            print(vehicle)
             vehicles.append(vehicle)
         }
     }
@@ -57,6 +56,15 @@ extension VehicleViewModel: VehicleViewDelegate{
             let newVehicle = Vehicle(licensePlate: licensePlate, type: type)
 
             database.create(newVehicle)
+            
+            
+            vehicles = []
+            let vehicleResults = database.read(Vehicle.self)
+            for vehicle in vehicleResults {
+                vehicles.append(vehicle)
+            }
+            
+            self.view?.reloadItems()
         }
         
         
