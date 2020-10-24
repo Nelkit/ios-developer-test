@@ -12,6 +12,12 @@ class ViewNames {
     /// Storyboard ID: HomeView
     static var homeView: String = "HomeView"
     
-    /// Storyboard ID: HomeView
+    /// Storyboard ID: VehicleView
     static var vehicleView: String = "VehicleView"
+    
+    /// Storyboard ID: LogView
+    static var logView: String = "LogView"
+    
+    /// Storyboard ID: PaymentView
+    static var paymentView: String = "PaymentView"
 }

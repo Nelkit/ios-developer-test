@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         
         /// Agrego los registros de tipos de Vehiculos
-        let vehicleType1 = VehicleType(code: "official", descrip: "Oficiales", fare: 0.0)
+        let vehicleType1 = VehicleType(code: "official", descrip: "Oficial", fare: 0.0)
         let vehicleType2 = VehicleType(code: "resident", descrip: "Residentes", fare: 0.05)
         let vehicleType3 = VehicleType(code: "no_resident", descrip: "No Residentes", fare: 0.5)
         

@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		37F0760CC1210280F4EF3BB3 /* Pods_iParking_iParkingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4A45950167FBEC2A99DF94 /* Pods_iParking_iParkingUITests.framework */; };
 		4890D793A72B903AEAEE0917 /* Pods_iParkingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A4A3C54C41576ACBCCEF46 /* Pods_iParkingTests.framework */; };
+		84131FD02543EC4D00CF89C2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84131FCF2543EC4D00CF89C2 /* Extensions.swift */; };
+		84131FDA2543F65300CF89C2 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84131FD92543F65300CF89C2 /* PaymentView.swift */; };
+		84131FDF2543F68200CF89C2 /* PaymentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84131FDE2543F68200CF89C2 /* PaymentViewModel.swift */; };
 		84B459B3254265C900D1D640 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B459B2254265C900D1D640 /* MenuCell.swift */; };
 		84B459BF2542668500D1D640 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B459BE2542668500D1D640 /* BaseCollectionViewCell.swift */; };
 		84B459C925426A4B00D1D640 /* ViewNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B459C825426A4B00D1D640 /* ViewNames.swift */; };
@@ -19,6 +22,10 @@
 		84B459EE254286C200D1D640 /* VehicleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B459ED254286C200D1D640 /* VehicleViewModel.swift */; };
 		84B459F92542891600D1D640 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B459F82542891600D1D640 /* BaseController.swift */; };
 		84B45A102542973C00D1D640 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B45A0F2542973C00D1D640 /* DatabaseManager.swift */; };
+		84B782DB2543BF4500E100D4 /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B782DA2543BF4500E100D4 /* LogView.swift */; };
+		84B782E02543BFC000E100D4 /* LogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B782DF2543BFC000E100D4 /* LogViewModel.swift */; };
+		84C0485B2543D937001F516F /* ParkingTimetLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C0485A2543D937001F516F /* ParkingTimetLog.swift */; };
+		84CA552F2543AD91001F162A /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA552E2543AD91001F162A /* Enums.swift */; };
 		84EEDAA125412CF60055B238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EEDAA025412CF60055B238 /* AppDelegate.swift */; };
 		84EEDAA325412CF60055B238 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EEDAA225412CF60055B238 /* SceneDelegate.swift */; };
 		84EEDAA525412CF60055B238 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EEDAA425412CF60055B238 /* HomeView.swift */; };
@@ -55,6 +62,9 @@
 		402CAAF781ADE18BC0D86BC3 /* Pods-iParking-iParkingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iParking-iParkingUITests.release.xcconfig"; path = "Target Support Files/Pods-iParking-iParkingUITests/Pods-iParking-iParkingUITests.release.xcconfig"; sourceTree = "<group>"; };
 		59A4A3C54C41576ACBCCEF46 /* Pods_iParkingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iParkingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64636A70AAA4616561008353 /* Pods-iParkingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iParkingTests.release.xcconfig"; path = "Target Support Files/Pods-iParkingTests/Pods-iParkingTests.release.xcconfig"; sourceTree = "<group>"; };
+		84131FCF2543EC4D00CF89C2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		84131FD92543F65300CF89C2 /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		84131FDE2543F68200CF89C2 /* PaymentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewModel.swift; sourceTree = "<group>"; };
 		84B459B2254265C900D1D640 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		84B459BE2542668500D1D640 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
 		84B459C825426A4B00D1D640 /* ViewNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewNames.swift; sourceTree = "<group>"; };
@@ -65,6 +75,10 @@
 		84B459ED254286C200D1D640 /* VehicleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleViewModel.swift; sourceTree = "<group>"; };
 		84B459F82542891600D1D640 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		84B45A0F2542973C00D1D640 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		84B782DA2543BF4500E100D4 /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
+		84B782DF2543BFC000E100D4 /* LogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewModel.swift; sourceTree = "<group>"; };
+		84C0485A2543D937001F516F /* ParkingTimetLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingTimetLog.swift; sourceTree = "<group>"; };
+		84CA552E2543AD91001F162A /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		84EEDA9D25412CF60055B238 /* iParking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iParking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EEDAA025412CF60055B238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84EEDAA225412CF60055B238 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +139,51 @@
 				59A4A3C54C41576ACBCCEF46 /* Pods_iParkingTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84131FD52543F5EB00CF89C2 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				84131FD62543F5FC00CF89C2 /* Models */,
+				84131FD72543F60400CF89C2 /* View */,
+				84131FD82543F61100CF89C2 /* ViewModel */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		84131FD62543F5FC00CF89C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84C0485A2543D937001F516F /* ParkingTimetLog.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84131FD72543F60400CF89C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84131FD92543F65300CF89C2 /* PaymentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84131FD82543F61100CF89C2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				84131FDE2543F68200CF89C2 /* PaymentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8497476A2543BDDC0044BDF5 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				84131FD52543F5EB00CF89C2 /* Payment */,
+				84B782D62543BE4B00E100D4 /* Log */,
+				84B459A9254264BF00D1D640 /* Home */,
+				84B459E4254285DC00D1D640 /* Vehicle */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 		84B459A9254264BF00D1D640 /* Home */ = {
@@ -193,6 +252,8 @@
 			children = (
 				84B459C825426A4B00D1D640 /* ViewNames.swift */,
 				84B459DA2542826A00D1D640 /* Colors.swift */,
+				84CA552E2543AD91001F162A /* Enums.swift */,
+				84131FCF2543EC4D00CF89C2 /* Extensions.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -259,6 +320,40 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		84B782D62543BE4B00E100D4 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				84B782D72543BE5B00E100D4 /* Models */,
+				84B782D82543BE6200E100D4 /* View */,
+				84B782D92543BE7D00E100D4 /* ViewModel */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		84B782D72543BE5B00E100D4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84EEDB42254168890055B238 /* ParkingLog.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84B782D82543BE6200E100D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84B782DA2543BF4500E100D4 /* LogView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84B782D92543BE7D00E100D4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				84B782DF2543BFC000E100D4 /* LogViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		84EEDA9425412CF60055B238 = {
 			isa = PBXGroup;
 			children = (
@@ -284,11 +379,9 @@
 		84EEDA9F25412CF60055B238 /* iParking */ = {
 			isa = PBXGroup;
 			children = (
+				8497476A2543BDDC0044BDF5 /* Application */,
 				84B45A0E2542971C00D1D640 /* Data */,
 				84B459BD2542664E00D1D640 /* Core */,
-				84B459E4254285DC00D1D640 /* Vehicle */,
-				84B459A9254264BF00D1D640 /* Home */,
-				84EEDADC254139430055B238 /* Models */,
 				84B459DF254283EC00D1D640 /* SupportFiles */,
 				84B459E02542841A00D1D640 /* Resources */,
 				84EEDAAE25412CF60055B238 /* Info.plist */,
@@ -312,14 +405,6 @@
 				84EEDAC425412CF70055B238 /* Info.plist */,
 			);
 			path = iParkingUITests;
-			sourceTree = "<group>";
-		};
-		84EEDADC254139430055B238 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				84EEDB42254168890055B238 /* ParkingLog.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		8B46B3D8CEA723D5962603ED /* Pods */ = {
@@ -574,19 +659,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				84EEDAF5254163E60055B238 /* Vehicle.swift in Sources */,
+				84131FDA2543F65300CF89C2 /* PaymentView.swift in Sources */,
 				84B459E92542869100D1D640 /* VehicleView.swift in Sources */,
 				84B459C925426A4B00D1D640 /* ViewNames.swift in Sources */,
 				84B45A102542973C00D1D640 /* DatabaseManager.swift in Sources */,
 				84B459BF2542668500D1D640 /* BaseCollectionViewCell.swift in Sources */,
+				84CA552F2543AD91001F162A /* Enums.swift in Sources */,
 				84EEDB3E254166E50055B238 /* VehicleType.swift in Sources */,
+				84B782DB2543BF4500E100D4 /* LogView.swift in Sources */,
 				84B459D125426B5C00D1D640 /* Menu.swift in Sources */,
 				84EEDB43254168890055B238 /* ParkingLog.swift in Sources */,
 				84B459D625426D2800D1D640 /* HomeViewModel.swift in Sources */,
 				84B459DB2542826A00D1D640 /* Colors.swift in Sources */,
 				84B459EE254286C200D1D640 /* VehicleViewModel.swift in Sources */,
+				84131FD02543EC4D00CF89C2 /* Extensions.swift in Sources */,
 				84EEDAA525412CF60055B238 /* HomeView.swift in Sources */,
 				84B459B3254265C900D1D640 /* MenuCell.swift in Sources */,
+				84131FDF2543F68200CF89C2 /* PaymentViewModel.swift in Sources */,
+				84C0485B2543D937001F516F /* ParkingTimetLog.swift in Sources */,
 				84EEDAA125412CF60055B238 /* AppDelegate.swift in Sources */,
+				84B782E02543BFC000E100D4 /* LogViewModel.swift in Sources */,
 				84B459F92542891600D1D640 /* BaseController.swift in Sources */,
 				84EEDAA325412CF60055B238 /* SceneDelegate.swift in Sources */,
 			);

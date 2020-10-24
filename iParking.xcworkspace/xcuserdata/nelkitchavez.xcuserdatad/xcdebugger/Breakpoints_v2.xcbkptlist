@@ -14,25 +14,9 @@
             filePath = "iParking/Vehicle/View/VehicleView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "tableView(_:numberOfRowsInSection:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "883AE6B8-5C9F-4640-A405-69B33701DA3C"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "iParking/Vehicle/ViewModel/VehicleViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
-            landmarkName = "init(view:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -46,9 +30,9 @@
             filePath = "iParking/Vehicle/ViewModel/VehicleViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
-            landmarkName = "onAddNewVehicle(licensePlate:)"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "onAddNewVehicle(licensePlate:vehicleTypeToCreate:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -71,16 +55,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "323385A1-C336-46E5-85A4-3E44E0EDCB47"
+            uuid = "4EE00B4E-4DD4-45B2-AD2A-B629FA33F77D"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "iParking/Vehicle/ViewModel/VehicleViewModel.swift"
+            filePath = "iParking/Application/Log/ViewModel/LogViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "init(view:)"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "fareToPayment(log:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB43848E-B8F8-47EE-AC20-7BF33143A40C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iParking/Application/Log/ViewModel/LogViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "fareToPayment(log:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

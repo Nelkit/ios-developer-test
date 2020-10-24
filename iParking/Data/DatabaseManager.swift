@@ -12,7 +12,7 @@ class DatabaseManager {
 
     private let NotificationError = Notification.Name.init(rawValue: "Realm")
 
-    private let realm: Realm
+    let realm: Realm
     init(realm: Realm = try! Realm()) {
         self.realm = realm
     }

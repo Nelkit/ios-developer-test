@@ -7,8 +7,6 @@ target 'iParking' do
 
   # Pods for iParking
   pod 'RealmSwift'
-  pod 'RxSwift'
-  pod 'RxCocoa'
   
   target 'iParkingTests' do
     inherit! :search_paths
