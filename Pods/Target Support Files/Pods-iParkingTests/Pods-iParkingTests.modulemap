@@ -1,0 +1,6 @@
+framework module Pods_iParkingTests {
+  umbrella header "Pods-iParkingTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
